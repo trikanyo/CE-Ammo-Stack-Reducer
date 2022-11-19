@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[
+                @Name="AmmoBase" or
+				@Name="6x18mmChargedBase" or
+				@Name="6x24mmChargedBase" or
+				@Name="8x35mmChargedBase" or				
+				@Name="10x18mmChargedBase" or
+				@Name="ChargePistolAmmo" or
+				@Name="ChargeRifleAmmo" or
+				@Name="AmmoCrossbowBoltBase" or
+				@Name="AmmoArrowBase" or
+				@Name="AmmoSlingBulletBase" or
+				@Name="127x55mmBase" or
+				@Name="20GaugeBase" or
+				@Name="LaserChargePackBase" or
+				@Name="10GaugeBase" or
+				@Name="12GaugeBase" or
+				@Name="16GaugeBase" or
+				@Name="410BoreBase"
+				]/stackLimit</xpath>
+			<value>
+				<stackLimit>1000</stackLimit>
+			</value>
+		</Operation>
+
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[
+				@Name="12x72mmChargedBase" or
+				@Name="8x50mmChargedBase" or
+				@Name="AmmoAntiMaterielBase" or
+				@Name="AmmoAutocannonShellBase" or
+				@Name="HeavyChargeAmmo" or
+				@Name="AmmoRifleMagnumBase" or
+				@Name="AmmoShotgunBase" or
+				@Name="Ammo792x94mmPatronenBase" or
+				@Name="Ammo127x108mmBase" or
+				@Name="Ammo145x114mmBase" or
+				@Name="Ammo152x169mmBase" or
+				@Name="Ammo20x82mmMauserBase" or
+				@Name="Ammo20x99mmRShVAKBase" or
+				@Name="Ammo20x102mmNATOBase" or
+				@Name="Ammo20x110mmHispanoBase" or
+				@Name="Ammo20x128mmOerlikonBase" or
+				@Name="Ammo20x138mmBBase" or
+				@Name="Ammo30x113mmBBase" or
+				@Name="Ammo50BMGBase"
+				]/stackLimit</xpath>
+			<value>
+				<stackLimit>500</stackLimit>
+			</value>
+		</Operation>
+
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[
+				@Name="30x64mmFuelBase" or
+				@Name="AmmoLauncherGrenadeBase" or
+				@Name="25x40mmGrenadeBase" or
+				@Name="25x59mmGrenadeBase" or
+				@Name="30x29mmGrenadeBase" or
+				@Name="35x32mmSRGrenadeBase" or
+				@Name="40x46mmGrenadeBase" or
+				@Name="40x47mmGrenadeBase" or
+				@Name="40x53mmGrenadeBase" or
+				@Name="40x53mmVOG25GrenadeBase" or
+				@Name="20mmFliegerfaustBase"
+				]/stackLimit</xpath>
+			<value>
+				<stackLimit>200</stackLimit>
+			</value>
+		</Operation>
+
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[
+				@Name="90mmCannonShellBase" or
+				@Name="105mmHowitzerShellBase" or
+				@Name="155mmHowitzerShellBase" or
+				@Name="83mmPIATGrenadeBase" or
+				@Name="CannonBallBase" or
+				@Name="70mmAPKWSBase" or
+				@Name="83mmSMAWBase" or
+				@Name="84x246mmRBase" or
+				@Name="88mmRPzBRocketBase" or
+				@Name="Base90mmRecoillessAmmo" or
+				@Name="130mmType63Base" or
+				@Name="132mmM13Base" or
+				@Name="M6RocketBase" or
+				@Name="M6A1RocketBase" or
+				@Name="M6A3RocketBase" or
+				@Name="PG15VRocketBase" or
+				@Name="RPG7GrenadeBase" or
+				@Name="RPG32RocketBase" or
+				@Name="SPG9GrenadeBase" or
+				@Name="TomahawkLAMBase" or
+				@Name="15cmNebelwerferBase" or
+				@Name="28cmSpgrShellBase" or
+				@Name="50mmType89MortarShellBase" or
+				@Name="60mmMortarShellBase" or
+				@Name="81mmMortarShellBase" or
+				@Name="100x695mmRCannonShellBase" or
+				@Name="105x607mmRCannonShellBase" or
+				@Name="120mmCannonShellBase" or
+				@Name="762x385mmRCannonShellBase"
+				]/stackLimit</xpath>
+			<value>
+				<stackLimit>5</stackLimit>
+			</value>
+		</Operation>
+</Patch>
